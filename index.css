@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://source.unsplash.com/1920x1080/?reading);
+    background-repeat: no-repeat;
+    font-family: 'Abyssinica SIL', serif;
+
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 49%;
+    height: 470px;
+    margin: 90px 470px ;
+    /* background-color: yellow;
+    border: 3px solid black; */
+    flex-direction: column;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 3s ease-in-out 0.3s;
+
+
+
+}
+.container:hover{
+
+    transform: scale(1.1) 
+}
+.quotearea{
+    height: 197px;
+    width: 830px;
+    /* border: 2px solid 
+    
+    green; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    animation:text 1s ease-in 0.5s infinite alternate ;
+}
+@keyframes text {
+    from{
+         
+    }
+    to{
+  transform: translateY(10px)
+    }
+}
+
+h1{
+    margin-bottom: 10px;
+}
+.button{
+    margin-top: 10px;
+    transform: all 2s ease-in-out 0.5s ;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: skewX(10deg)
+}
+.button-2{
+  
+    transform: all 2s ease-in-out 0.5s ;
+}
+
+.button-2:hover{
+    cursor: pointer;
+    transform: skewY(5deg)
+}
+.img{
+    height: 161px;
+    margin: 59px;
+    animation: all 4s ease-in-out    0.2s infinite alternate ;
+    border-radius: 25px;
+}
+@keyframes all {
+    to{
+        transform:rotate(360deg) ;
+    }
+    
+}
